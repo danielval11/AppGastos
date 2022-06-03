@@ -7,7 +7,7 @@ function convertir(){
     let dinero = $("#dinero").val();
     contar += 1;
 
-    distritute(nombre, dinero, contar);
+    distribute(nombre, dinero, contar);
 
     let mostrarNombre = `<h4> ${nombre}: </h4>`
     let mostrarDinero = `<h4> $ ${dinero}: </h4>`
@@ -16,7 +16,7 @@ function convertir(){
     $("#dolar").append(mostrarDinero);
 }
 
-function distritute(persan, spent, c){
+function distribute(persan, spent, c){
     sumar += parseInt(spent);
     $("#resultado").text("$" + sumar);
 
