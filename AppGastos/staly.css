@@ -1,3 +1,21 @@
-.titulo{
+* { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    font-size: 18px;
+}
+.container-fluid {
+background-color: white;
+width: 100%;
+}
+.titulo {
+    text-align: center;
+    background-color: rgb(56, 77, 99);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+}
+.mb-3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+}
+.ms-3 {
+    background-color: rgb(56, 77, 99);
 }
